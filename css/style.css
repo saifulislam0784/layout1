@@ -1,0 +1,643 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.container{
+	width: 1140px;
+	margin: 0px auto;
+}
+
+/* header part start */
+
+header{
+	width: 100%;
+	float: left;
+	padding: 5px 0px;
+	
+}
+
+.logo{
+	width: 20%;
+	float: left;
+}
+
+.logo img{
+
+	width: 150px;
+	height: 100px;
+}
+
+.menu{
+	width: 50%;
+	float: left;
+
+}
+
+nav ul{
+	list-style: none;
+
+
+}
+
+nav ul li{
+	display: inline-block;
+	margin: 35px 20px;
+}
+
+nav ul li a{
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.social{
+	width: 30%;
+	float: left;
+
+}
+
+.social ul{
+	list-style: none;
+
+}
+
+.social ul li{
+	display: inline-block;
+	margin: 30px 10px;
+
+}
+
+.social ul li a{
+
+
+}
+
+.fa.fa-facebook{
+	background-color: blue;
+	padding: 8px 10px;
+	color: white;
+}
+
+.fa.fa-twitter{
+	background-color: skyblue;
+	padding: 8px 10px;
+	color: white;
+}
+
+.fa.fa-linkedin{
+	background-color: #0000ff96;
+	padding: 8px 10px;
+	color: white;
+}
+
+.fa.fa-google-plus{
+	background-color: #ff0000ba;
+	padding: 8px 10px;
+	color: white;
+}
+
+.fa.fa-sign-in{
+	margin: 0px 10px;
+}
+
+/* header part end */
+
+/* banner part start */
+
+.banner{
+	width: 100%;
+	float: left;
+	background: url(../img/man.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 120px 0px;
+}
+
+.banner-main{
+	width: 500px;
+	padding: 50px;
+	background-color: #80808073;
+}
+
+.banner-main h2{
+	text-align: center;
+	font-size: 50px;
+	color: black;
+}
+
+.banner-main p{
+	text-align: center;
+	color: white;
+	line-height: 20px;
+}
+
+.banner-main ul{
+	list-style: none;
+	
+
+}
+
+.banner-main ul li{
+	display: inline-block;
+	margin: 10px 30px;
+
+}
+
+.banner-main ul li a{
+	text-decoration: none;
+	color: white;
+	background-color: green;
+	padding: 5px 5px;
+}
+span{
+	background-color: black;
+	color: white;
+	padding: 2px 5px;
+	border-radius: 10px 20px;
+	position: fixed;
+	top: 40%;
+	right: 0%;
+}
+
+.fa.fa-envelope-open-o{
+	margin: 0px 5px;
+}
+
+/* banner part end */
+
+
+/* servic part start */
+
+.service{
+	width: 100%;
+	float: left;
+}
+
+.concept{
+	width: 25%;
+	float: left;
+	padding: 50px 0px;
+}
+
+
+.concept p{
+	margin: 10px 10px;
+	padding: 5px 20px;
+	text-align: center;
+}
+
+.concept h2{
+	text-align: center;
+	padding: 10px 0px;
+}
+.concept ul{
+	list-style: none;
+
+}
+
+.concept ul li{
+	display: center;
+	margin: 10px 100px;
+}
+.concept ul li a{
+	text-decoration: none;
+	text-align: center;
+	background-color: blue;
+	color: #fff;
+	font-size: 10px;
+	padding: 6px;
+	border-radius: 5px;
+}
+
+.fa.fa-check-circle{
+
+	display: inline-block;
+	color: white;
+	background-color: green;
+	margin: 5px 120px;
+	padding: 10px 13px;
+	border-radius: 100px;
+}
+
+
+.loan{
+	width: 25%;
+	float: left;
+	padding: 50px 0px;
+}
+
+.loan p{
+	margin: 10px 10px;
+	padding: 5px 20px;
+	text-align: center;
+}
+
+.loan h2{
+	text-align: center;
+	padding: 10px 0px;
+}
+.loan ul{
+	list-style: none;
+
+}
+
+.loan ul li{
+	display: center;
+	margin: 10px 100px;
+}
+.loan ul li a{
+	text-decoration: none;
+	text-align: center;
+	background-color: blue;
+	color: #fff;
+	font-size: 10px;
+	padding: 6px;
+	border-radius: 5px;
+}
+
+.fa.fa-map-marker{
+
+	display: inline-block;
+	color: white;
+	background-color: green;
+	margin: 5px 120px;
+	padding: 10px 15px;
+	border-radius: 100px;
+}
+
+
+.financing{
+	width: 25%;
+	float: left;
+	padding: 50px 0px;
+}
+
+.financing p{
+	margin: 10px 10px;
+	padding: 5px 20px;
+	text-align: center;
+}
+
+.financing h2{
+	text-align: center;
+	padding: 10px 0px;
+
+}
+.financing ul{
+	list-style: none;
+
+}
+
+.financing ul li{
+	display: center;
+	margin: 10px 100px;
+}
+.financing ul li a{
+	text-decoration: none;
+	text-align: center;
+	background-color: blue;
+	color: #fff;
+	font-size: 10px;
+	padding: 6px;
+	border-radius: 5px;
+}
+
+.fa.fa-line-chart{
+
+	display: inline-block;
+	color: white;
+	background-color: green;
+	margin: 5px 120px;
+	padding: 10px 10px;
+	border-radius: 100px;
+}
+
+
+.signup{
+	width: 25%;
+	float: left;
+	padding: 50px 0px;
+}
+
+.signup p{
+	margin: 10px 10px;
+	padding: 5px 20px;
+	text-align: center;
+}
+
+.signup h2{
+	text-align: center;
+	padding: 10px 0px;
+
+}
+.signup ul{
+	list-style: none;
+
+}
+
+.signup ul li{
+
+	display: center;
+	margin: 10px 100px;
+}
+.signup ul li a{
+
+	text-decoration: none;
+	text-align: center;
+	background-color: blue;
+	color: #fff;
+	font-size: 10px;
+	padding: 6px;
+	border-radius: 5px;
+}
+
+.fa.fa-user-plus{
+
+	display: inline-block;
+	color: white;
+	background-color: green;
+	margin: 5px 120px;
+	padding: 10px 10px;
+	border-radius: 100px;
+}
+
+/* servic part end */
+
+/* invest part start */
+
+.invest{
+
+	width: 100%;
+	float: left;
+}
+
+.one{
+	width: 600;
+	float: left;
+	background-color: gray;
+	margin: 0px 100px 10px 220px;
+
+}
+
+.one ul{
+	margin: 30px 30px;
+	
+
+}
+
+.one ul li{
+	margin: 10px 30px;
+
+}
+
+.one ul li a{
+	text-decoration: none;
+	color: black;
+	padding: 5px 5px;
+}
+
+.one h2{
+	text-align: center;
+	margin: 30px 0px 0px 0px;
+}
+
+.two{
+	width: 600;
+	float: left;
+	background-color: gray;
+	
+}
+
+.two h2{
+	text-align: center;
+	margin: 30px 0px 0px 0px;
+}
+
+.two ul{
+	margin: 30px 30px;
+	
+
+}
+
+.two ul li{
+	margin: 10px 30px;
+
+}
+
+.two ul li a{
+	text-decoration: none;
+	color: black;
+	padding: 5px 5px;
+}
+
+/* invest part end */
+
+/* blog part start */
+
+.blog{
+	width: 100%;
+	float: left;
+}
+
+.blog h1{
+	text-align: center;
+	padding: 20px 0px;
+}
+
+.blog-left{
+	width: 50%;
+	float: left;
+}
+
+.blog-left p{
+	margin: 0px 0px 10px 220px;
+}
+
+.blog-left h2{
+	margin: 0px 0px 10px 220px;
+	
+}
+
+.blog-left a{
+	text-decoration: none;
+	color: white;
+	background-color: blue;
+	margin: 10px 0px 30px 220px;
+	padding: 6px;
+	font-size: 12px;
+	border-radius: 10px;
+}
+
+.blog-right{
+	width: 50%;
+	float: left;
+}
+
+.blog-right p{
+	margin: 0px 150px 10px 55px;
+}
+
+.blog-right h2{
+	margin: 0px 0px 35px 55px;
+}
+
+.blog-right a{
+	text-decoration: none;
+	color: white;
+	background-color: blue;
+	margin: 12px 0px 10px 50px;
+	padding: 6px;
+	font-size: 12px;
+	border-radius: 10px;
+}
+
+/* blog part end */
+
+/* info part start */
+	.info{
+		width: 100%;
+		float: left;
+		background-color: #a9a9a936;
+		margin: 30px 0px;
+	}
+
+	.info ul{
+		margin: 10px;
+		padding: 10px 0px;
+		text-align: center;
+	}
+	.info ul li{
+		margin: 10px;
+		list-style: none;
+
+	}
+	.info ul li a{
+
+	}
+
+/* info part end */
+
+/* star part start */
+	.star{
+		width: 100%;
+		float: left;
+	}
+
+	.star p{
+		text-align: center;
+		margin: 0px 0px 20px 0px;
+	}
+	.star ul{
+		margin-left: 500px;
+	}
+	.star ul li{
+		display: inline-block;
+		background-color: #8bc34a;
+
+	}
+
+
+/* star part end */
+
+/* mention part start */
+	.mention{
+		width: 100%;
+		float: left;
+		background-color: darkgray;
+	}
+
+	.mention h2{
+		text-align: center;
+		color: white;
+		margin: 30px 0px;
+
+	}
+
+	.mention-one{
+		width: 25%;
+		float: left;
+	}
+
+	.mention-one h1,h4{
+		text-align: center;
+		color: black;
+		margin: 10px 0px;
+
+	}
+
+	.mention-two{
+		width: 25%;
+		float: left;
+
+	}
+
+	.mention-two h1,h4{
+		text-align: center;
+		color: black;
+		margin: 10px 0px;
+
+	}
+
+	.mention-three{
+		width: 25%;
+		float: left;
+	}
+
+	.mention-three h1,h4{
+		text-align: center;
+		color: black;
+		margin: 10px 0px;
+
+	}
+
+	.mention-four{
+		width: 25%;
+		float: left;
+	}
+
+	.mention-four h1,h4{
+		text-align: center;
+		color: black;
+		margin: 10px 0px;
+
+	}
+
+/* mention part end */
+
+/* footer part start */
+
+	footer{
+		width: 100%;
+		float: left;
+		background-color: black;
+	}
+
+	.footer-left{
+		width: 50%;
+		float: left;
+	}
+
+	.footer-right{
+		width: 50%;
+		float: left;
+	}
+
+	.footer-left p{
+		text-align: right;
+		margin: 20px 20px;
+		padding: 10px 0px;
+		color: white;
+		font-size: 8px;
+	}
+
+	.footer-right p{
+		text-align: left;
+		margin: 20px 20px;
+		padding: 10px 0px;
+		color: white;
+		font-size: 8px;
+	}
+
+/* footer part end */
+
+
